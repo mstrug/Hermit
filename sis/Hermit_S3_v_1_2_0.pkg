@@ -1,0 +1,24 @@
+&EN
+
+; standard SIS file header
+#{"Hermit"}, (0x2003093E), 1,2,0,TYPE = SA
+
+;Localised Vendor name
+%{"Michal Strug"}
+
+;Unique Vendor name
+:"Michal Strug"
+
+;Supports Symbian^3
+[0x20022E6D], 0, 0, 0, {"Series60ProductID"}	; Symbian^3
+
+;Files to install
+"C:\Nokia\devices\Nokia_Symbian3_SDK_v1.0\Epoc32\release\gcce\urel\Hermit_2003093E.exe"       -"!:\sys\bin\Hermit_2003093E.exe"
+
+"C:\Nokia\devices\Nokia_Symbian3_SDK_v1.0\Epoc32\data\z\resource\apps\Hermit_2003093E.rsc"			    -"!:\resource\apps\Hermit_2003093E.rsc"
+"C:\Nokia\devices\Nokia_Symbian3_SDK_v1.0\Epoc32\data\z\private\10003a3f\apps\Hermit_2003093E_reg.rsc"	-"!:\private\10003a3f\import\apps\Hermit_2003093E_reg.rsc"
+"C:\Nokia\devices\Nokia_Symbian3_SDK_v1.0\Epoc32\data\z\resource\apps\Hermit_2003093E.mif" 			    -"!:\resource\apps\Hermit_2003093E.mif"
+
+"C:\Nokia\devices\Nokia_Symbian3_SDK_v1.0\Epoc32\winscw\c\private\2003093E\Hermit_360x640.sge"    -"!:\private\2003093E\Hermit_360x640.sge"
+
+"backup_registration.xml"       -"!:\private\2003093E\backup_registration.xml"

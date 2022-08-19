@@ -1,0 +1,23 @@
+&EN
+
+; standard SIS file header
+#{"Hermit"}, (0xE89EA365), 1,0,0,TYPE = SA
+
+;Localised Vendor name
+%{"Michal Strug"}
+
+;Unique Vendor name
+:"Michal Strug"
+
+;Supports Symbian^3
+[0x20022E6D], 0, 0, 0, {"Series60ProductID"}	; Symbian^3
+
+;Files to install
+"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\Hermit.exe"       -"!:\sys\bin\Hermit.exe"
+
+"$(EPOCROOT)Epoc32\data\z\resource\apps\Hermit.rsc"			    -"!:\resource\apps\Hermit.rsc"
+"$(EPOCROOT)Epoc32\data\z\private\10003a3f\apps\Hermit_reg.rsc"	-"!:\private\10003a3f\import\apps\Hermit_reg.rsc"
+"$(EPOCROOT)Epoc32\data\z\resource\apps\Hermit.mif" 			    -"!:\resource\apps\Hermit.mif"
+
+"$(EPOCROOT)Epoc32\winscw\c\private\E89EA365\Hermit_360x640.sge"    -"!:\private\E89EA365\Hermit_360x640.sge"
+

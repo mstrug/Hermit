@@ -1,0 +1,20 @@
+
+#include "Hermit.loc"
+
+
+// define structures
+
+STRUCT STRING { LTEXT text; }
+
+// define resources
+
+//=========================================================================
+//	GLOBALS
+//=========================================================================
+
+
+RESOURCE STRING r_string_application_name { text = qtn_loc_application_name; }
+
+
+// End of file
+

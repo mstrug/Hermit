@@ -1,0 +1,21 @@
+/*
+ ============================================================================
+ Name        : HermitUid.h
+ Author      : Michal Strug
+ Version     : 1.0
+  Copyright   : Copyright (c) 2022 Michal Strug. All rights reserved.
+ Description : 
+ ============================================================================
+ */
+
+#ifndef HERMITUID_H_
+#define HERMITUID_H_
+
+// application UID3 - development
+//#define _UID3 0xE89EA365
+
+// application UID3 - OVI Emma
+#define _UID3 0x2003093E
+
+
+#endif // HERMITUID_H_

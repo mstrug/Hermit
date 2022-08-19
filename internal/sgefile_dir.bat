@@ -1,0 +1,1 @@
+D:\S60\devices\Nokia_Symbian3_SDK_v0.9\epoc32\release\winscw\udeb\SGEFilePack.exe -dtextshell -- -l c:\private\E89EA365\Hermit_360x640.sge -o c:\Hermit_360x640.sge.txt
